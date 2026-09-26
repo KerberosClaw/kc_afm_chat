@@ -1,0 +1,14 @@
+.build/
+build/
+DerivedData/
+.DS_Store
+xcuserdata/
+*.xcuserstate
+*.app/
+*.local.*
+.env
+*.sqlite*
+*.jsonl
+!Tests/Fixtures/*.jsonl
+Config/Signing.local.xcconfig
+.claude/
