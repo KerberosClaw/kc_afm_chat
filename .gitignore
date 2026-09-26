@@ -12,3 +12,4 @@ xcuserdata/
 !Tests/Fixtures/*.jsonl
 Config/Signing.local.xcconfig
 .claude/
+drafts/

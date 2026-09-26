@@ -38,7 +38,11 @@ Swift 6.4。框架回報 AFM 3 Core，contextSize 4096。
   GUI 確認對話框未完成逐項操作覆蓋。
 - 本次 Xcode 額外回報 CoreDevice / Simulator 外掛版本警告；macOS App 建置成功，
   沒有宣稱 iOS / Simulator 可用。本專案沒有 iOS target。
-- 尚未配置雲端 CI；上述為實機本機驗證，不把 workflow 存在等同於驗證通過。
+- 沒有雲端 CI，而且短期內配不起來：本專案要求 macOS 27 與 Xcode 27，而 GitHub 代管的
+  macOS runner 目前最新是 macOS 26（2026-09-26 查閱 `actions/runner-images` 與 GitHub
+  Changelog，未見 macOS 27 映像）。原生模型那段另外需要一台已啟用 Apple Intelligence
+  的機器，代管 runner 能否滿足未查證。上述全部是實機本機驗證，不把 workflow 存在等同
+  於驗證通過。
 
 ## 重做
 
