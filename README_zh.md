@@ -12,6 +12,8 @@ Apple 把一顆語言模型放進 macOS 裡。它跑在你自己的 Mac 上，�
 小視窗，只做這顆模型真的做得好的事，並在額度快用完時自動整理舊對話，讓長對話的
 下場是一份摘要，不是一個錯誤訊息。
 
+<img src="docs/images/main-window.png" alt="AFM Chat 主視窗，左側是對話清單，右側是一段簡短的文字問答" width="640">
+
 介面目前使用正體中文。
 
 ## 需求
@@ -45,6 +47,16 @@ Bundle Identifier，執行 **AFMChat** scheme。詳見[安裝與簽名](docs/INS
   仍留在紀錄裡。
 - 本機對話清單、搜尋、重新命名與刪除。
 - JSONL 是權威紀錄，SQLite 索引隨時可以砍掉重建。
+
+整理進行中，以及整理完成後留下的標記與摘要：
+
+<img src="docs/images/compaction-running.png" alt="對話正在整理的狀態，完成後才會接著回答" width="640">
+
+<img src="docs/images/compaction-done.png" alt="整理完成的標記，註明原始紀錄仍保留，下方是摘要與接續的回答" width="640">
+
+圖片問答，同樣在裝置端完成：
+
+<img src="docs/images/image-answer.png" alt="一張紅色圓形與藍色正方形的合成圖片，以及模型的一句話描述" width="640">
 
 ## 它不會做什麼
 
