@@ -1,4 +1,6 @@
-# 上下文就這麼大，那就照這個大小做
+# AFM Chat：用 Apple 裝置端模型的原生 Mac 聊天 App
+
+*上下文就這麼大，那就照這個大小做。*
 
 [English](README.md)
 

@@ -1,4 +1,6 @@
-# A chat app that fits in a context window this small
+# AFM Chat: a native Mac chat app for Apple's on-device model
+
+*A chat app that fits in a context window this small.*
 
 [正體中文](README_zh.md)
 
