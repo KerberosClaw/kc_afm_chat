@@ -13,6 +13,8 @@ is what fits inside the answer: a small native window for the things this model 
 actually good at, with automatic summarization so a long chat degrades into a summary
 instead of an error.
 
+<img src="docs/images/main-window.png" alt="AFM Chat main window with a conversation list on the left and a short text answer on the right" width="640">
+
 The interface is currently in Traditional Chinese.
 
 ## Requirements
@@ -49,6 +51,16 @@ identity, set `AFM_CHAT_SIGN_IDENTITY` before building. You can also open
 - Local conversations with search, rename and delete.
 - JSONL conversation records as the source of truth; the SQLite index is disposable
   and rebuildable.
+
+Summarization in progress, then the marker it leaves behind with the summary text:
+
+<img src="docs/images/compaction-running.png" alt="Conversation showing the in-progress summarization state before the reply continues" width="640">
+
+<img src="docs/images/compaction-done.png" alt="Finished summarization marker noting the original messages are kept, followed by the summary and the next reply" width="640">
+
+An image question, answered on-device:
+
+<img src="docs/images/image-answer.png" alt="A synthetic image of a red circle and a blue square with the model's one-sentence description" width="640">
 
 ## What it does not do
 
